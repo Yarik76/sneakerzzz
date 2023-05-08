@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Tw Cen MT";
+    background-color: rgb(239, 239, 239);
+}
+
+.start{
+    position: sticky;
+    z-index: 2;
+    top:0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+}
+.logo {
+    padding-top: 3px;
+    padding-bottom:3px;
+    margin-left: 50px;
+    height: 55px;
+    width:285px ;
+}
+
+.sneak {
+    padding-left:15px;
+    padding-top: 3px;
+}
+
+.contacts {
+    padding-top: 13px;
+    margin-right: 30px;
+    word-spacing: 40px;
+}
+
+
+.contacts ul,
+.contacts li {
+  list-style-type: none;
+}
+
+.contacts li {
+    display: inline-block;
+   position: relative;
+}
+
+a {
+    transition: all .4s;
+}
+
+.contacts li a:hover {
+   color: red;
+}
+
+#catalog {
+    display:flex;
+    justify-content: space-around;
+    font-size: 36px;
+    font-weight:bold;
+}
+
+
+a:link {color: white}
+a:visited {color:white}
+a {text-decoration: none; 
+}
+
+.header_content1 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.kross {
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;  
+}
+
+.main {margin-top: 3%;
+    position: relative;
+
+}
+.text1 {
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+
+}
+
+.size {
+    position: absolute;
+    margin-top: 5%;
+}
+.size ul{
+    height:70px;
+    margin-top: 20%;
+}
+
+.size ul,
+.size li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.button {
+    font-size: 24px;
+    border:1px solid grey;
+    width:70px;
+    height:65px;
+    text-align: center;
+    outline:none
+}
+
+.button:focus {
+    border-color: red;
+}
+
+
+.button1 {font-size: large;
+    height:70px;
+    width:100px;
+    margin-top: 20%;
+    border-radius: 0px;
+    border: 1px solid grey;
+    background-color:white;
+    color:black;
+    outline: none;
+    transition:all .5s;
+}
+.button1:hover {
+    border: 1px solid grey;
+    background-color:black;
+    color:white;
+
+}
+
